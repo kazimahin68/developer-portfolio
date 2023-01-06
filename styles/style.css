@@ -9,8 +9,12 @@
 
 /* Header and navigation style */
 header {
-    background-image: url()
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,9 +51,14 @@ nav li {
 
 /* Banner style */
 .banner {
-    margin: 0 230px;
+    margin: 0 40px 0 230px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 585px;
 }
 
 .banner-title {
@@ -67,6 +76,108 @@ nav li {
 
 .banner-description {
     font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     color: #757575;
+}
+
+/* Main */
+main {
+    border-radius: 10px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* About Section Style */
+.about-me {
+    font-weight: 700;
+    font-size: 35px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+
+}
+
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-description {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.what-i-do {
+    background: none;
+    margin-top: 130px;
+}
+
+.what-i-do .section-description {
+    width: 909px;
+    margin: 0 auto;
+}
+
+/* Skills Section style */
+.skills {
+    display: flex;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.skills img {
+    width: 44px;
+    height: 44px;
+}
+
+.skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 50px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+/* Resume Style */
+.resume {
+    margin-top: 130px;
+}
+
+.resume-content {
+    display: flex;
 }
