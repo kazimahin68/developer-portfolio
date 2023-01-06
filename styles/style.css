@@ -129,6 +129,7 @@ main {
     font-weight: 700;
     font-size: 20px;
 }
+
 .what-i-do {
     margin-top: 130px;
 }
@@ -187,6 +188,7 @@ main {
     font-weight: 700;
     font-size: 30px;
 }
+
 .resume-item {
     margin: 30px 0;
 }
@@ -210,7 +212,50 @@ main {
     font-size: 16px;
     color: #757575;
 }
+
 .resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact Style */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 115px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+input {
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+form .btn {
+    width: 150px;
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 24px;
 }
