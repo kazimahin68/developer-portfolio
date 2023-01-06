@@ -90,8 +90,6 @@ main {
 
 /* About Section Style */
 .about-me {
-    font-weight: 700;
-    font-size: 35px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -103,6 +101,8 @@ main {
 .section-title {
     margin-bottom: 30px;
     text-align: center;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .section-description {
@@ -129,9 +129,7 @@ main {
     font-weight: 700;
     font-size: 20px;
 }
-
 .what-i-do {
-    background: none;
     margin-top: 130px;
 }
 
@@ -180,4 +178,39 @@ main {
 
 .resume-content {
     display: flex;
+    gap: 25px;
+    margin-top: 115px;
+}
+
+.resume-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.resume-item {
+    margin: 30px 0;
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.item-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
 }
