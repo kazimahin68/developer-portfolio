@@ -23,7 +23,7 @@ nav {
 
 .nav-title {
     font-weight: 800;
-    font-size: 45px;
+    font-size: 3em;
     color: #181818;
 }
 
@@ -63,7 +63,7 @@ nav li {
 
 .banner-title {
     font-weight: 700;
-    font-size: 85px;
+    font-size: 5em;
     color: #181818;
     margin-bottom: 20px;
 }
@@ -84,7 +84,7 @@ nav li {
 /* Main */
 main {
     border-radius: 10px;
-    width: 1200px;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -133,7 +133,7 @@ main {
 }
 
 .what-i-do .section-description {
-    width: 909px;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -256,4 +256,8 @@ form .btn {
 .social a {
     text-decoration: none;
     margin-right: 24px;
+}
+
+.hide {
+    display: none;
 }

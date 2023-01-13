@@ -1,0 +1,155 @@
+@media screen and (max-width: 576px) {
+
+    .banner,
+    .personal-info,
+    .skills,
+    .resume-content,
+    .contact {
+        flex-direction: column;
+    }
+
+    nav {
+        align-items: flex-start;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-title {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    header {
+        background-image: none;
+    }
+
+    .banner {
+        margin: 0;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .about-info {
+        margin-bottom: 10px;
+    }
+
+    nav,
+    .banner,
+    .about-me,
+    .contact {
+        padding: 30px 50px;
+    }
+
+    .contact {
+        margin: 0;
+    }
+
+    .contact input,
+    textarea {
+        width: 75%;
+    }
+
+    .form {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .banner,
+    .personal-info,
+    .resume-content,
+    .contact {
+        flex-direction: column;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 30px;
+    }
+
+    nav {
+        align-items: flex-start;
+    }
+
+    .nav-title {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+    }
+
+    header {
+        background-image: none;
+    }
+
+    .banner {
+        margin: 0;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-info {
+        margin-bottom: 20px;
+    }
+
+    nav,
+    .banner,
+    .about-me,
+    .contact {
+        padding: 60px 80px;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill {
+        width: 145px;
+    }
+
+    .contact input,
+    textarea {
+        width: 75%;
+    }
+
+    .form {
+        text-align: center;
+    }
+}
